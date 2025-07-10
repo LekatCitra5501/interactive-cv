@@ -5,7 +5,12 @@ import Education from '@/components/Education.vue';
 import Skills from '@/components/Skills.vue';
 import Projects from '@/components/Projects.vue';
 import Contact from '@/components/Contact.vue';
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
 </script>
+
 <template>
   <div class="transition-all duration-1000">
     <Navbar />
@@ -31,16 +36,6 @@ import Contact from '@/components/Contact.vue';
     </main>
   </div>
 </template>
-
-<script>
-export default {
-  methods: {
-    scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    },
-  },
-};
-</script>
 
 <style scoped>
 .v-animate-on-scroll {
