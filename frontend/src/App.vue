@@ -1,22 +1,10 @@
 <script setup>
-import AppHeader from './components/Navbar.vue';
-import ProfileSection from './components/Hero.vue';
-import EducationSection from './components/Education.vue';
-import SkillsSection from './components/Skills.vue';
-import ProjectsSection from './components/Projects.vue';
-import ContactSection from './components/Contact.vue';
+// App.vue now uses router-view
 </script>
 
 <template>
   <div id="app" class="relative bg-dark-bg">
-    <AppHeader />
-    <main>
-      <ProfileSection />
-      <EducationSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
-    </main>
+    <router-view />
   </div>
 </template>
 

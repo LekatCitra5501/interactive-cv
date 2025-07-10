@@ -2,7 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import './assets/main.css'
+import animateOnScroll from './directives/animateOnScroll'
 
 const app = createApp(App)
 app.use(router)
+app.directive('animate-on-scroll', animateOnScroll)
 app.mount('#app')

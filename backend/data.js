@@ -19,4 +19,5 @@ const projects = [
         link: '#',
     },
 ];
-module.exports = { educationHistory, skills, projects };
+
+export { educationHistory, skills, projects };

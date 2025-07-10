@@ -1,7 +1,7 @@
 // backend/index.js
-const express = require("express");
-const cors = require("cors");
-const { educationHistory, skills, projects } = require("./data");
+import express from "express";
+import cors from "cors";
+import { educationHistory, skills, projects } from "./data.js";
 const app = express();
 const PORT = 3000;
 app.use(cors());
