@@ -40,7 +40,7 @@ const error = ref(null)
 
 onMounted(async () => {
   try {
-    const response = await axios.get('http://localhost:3000/api/skills')
+    const response = await axios.get('/api/skills')
     skills.value = response.data
   } catch (err) {
     console.error('Error fetching skills:', err);
