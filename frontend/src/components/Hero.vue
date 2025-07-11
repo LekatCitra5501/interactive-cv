@@ -25,11 +25,11 @@
           </a>
         </div>
         <div class="flex gap-6 mt-6 justify-start">
-          <a href="https://github.com" target="_blank" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
+          <a href="https://github.com/LekatCitra5501" target="_blank" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
             <i class="fab fa-github text-2xl"></i>
           </a>
-          <a href="https://linkedin.com" target="_blank" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
-            <i class="fab fa-linkedin text-2xl"></i>
+          <a href="https://www.instagram.com/lekatafitriantii/" target="_blank" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">
+            <i class="fab fa-instagram text-2xl"></i>
           </a>
         </div>
       </div>

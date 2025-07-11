@@ -13,8 +13,8 @@
       </div>
 
       <div class="flex justify-center space-x-8 mt-12 text-4xl">
-        <a href="https://github.com/yourusername" target="_blank" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300 transform hover:scale-110" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300 transform hover:scale-110" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/LekatCitra5501" target="_blank" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300 transform hover:scale-110" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/lekatafitriantii/" target="_blank" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300 transform hover:scale-110" title="Instagram"><i class="fab fa-instagram"></i></a>
       </div>
       <p class="text-gray-500 text-sm mt-4 text-center">
         © {{ new Date().getFullYear() }} Lekat Citra Fitrianti. All Rights Reserved.
