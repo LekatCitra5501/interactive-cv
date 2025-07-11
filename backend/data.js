@@ -10,13 +10,29 @@ const skills = [
     { name: 'Git & GitHub', level: 'Mahir', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
 ];
 
-const projects = [ 
+const projects = [
     {
         title: 'Website Toko Online',
-        image: '/public/web.png',
+        image: '/images/masha.jpg', // Corrected path
         description: 'Platform e-commerce dengan fitur keranjang belanja.',
         tech: ['Vue.js', 'Laravel', 'MySQL'],
         link: '#',
+    },
+    {
+        title: 'Aplikasi Manajemen Tugas',
+        image: '/images/upin.jpg', // Added for consistency with frontend
+        description: 'Aplikasi untuk mengelola tugas harian dengan fitur notifikasi.',
+        tech: ['Vue.js', 'Node.js', 'MongoDB'],
+        link: '#',
+        githubLink: '#',
+    },
+    {
+        title: 'Portofolio Pribadi',
+        image: '/images/shaun.jpg', // Added for consistency with frontend
+        description: 'Website portofolio untuk menampilkan proyek dan keahlian.',
+        tech: ['Vue.js', 'Tailwind CSS', 'Vite'],
+        link: '#',
+        githubLink: '#',
     },
 ];
 

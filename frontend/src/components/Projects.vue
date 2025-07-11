@@ -17,13 +17,14 @@
       </div>
       <div v-else-if="projects.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <div v-for="project in projects" :key="project.title" class="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform hover:scale-[1.03] transition duration-300 text-left border border-gray-600 group animate-scale-in">
-          <div class="relative overflow-hidden cursor-pointer" @click="emit('openImageModal', project.imageUrl)">
-        <img :src="project.imageUrl" :alt="project.title"
-             class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <p class="text-white text-lg font-semibold">Lihat Gambar</p>
-        </div>
-      </div>
+          <div class="relative overflow-hidden">
+            <img :src="project.image" :alt="project.title" class="w-full h-56 object-cover object-center transition-transform duration-500 group-hover:scale-110 cursor-pointer" @click="openModal(project.image)">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <button @click="openModal(project.image)" class="text-white bg-blue-500 hover:bg-blue-600 px-5 py-2 rounded-full text-lg shadow-lg">
+                <i class="fas fa-search-plus mr-2"></i>Lihat Gambar
+              </button>
+            </div>
+          </div>
           <div class="p-6 flex flex-col h-full">
             <h3 class="text-2xl font-bold mb-3 text-blue-400">{{ project.title }}</h3>
             <p class="text-base mb-4 text-gray-300 flex-grow">{{ project.description }}</p>
